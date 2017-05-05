@@ -25,7 +25,6 @@ namespace HorL
             var usersAnswer = Console.ReadLine();
 
 
-
             //ユーザから受け取った値を画面に出力
             Console.WriteLine(a2);
 
