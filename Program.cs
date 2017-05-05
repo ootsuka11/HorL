@@ -24,9 +24,21 @@ namespace HorL
             //ユーザから値を受け取る
             var usersAnswer = Console.ReadLine();
 
+            // ユーザが入力した情報が正誤を判別する
+            if (usersAnswer == "L" && a1 > a2)
+            {
+                Console.WriteLine("正解  :  " + a2);
+            }
+            else if (usersAnswer == "H" && a1 < a2)
+            {
+                Console.WriteLine("正解  :  " + a2);
+            }
+            else
+            {
+                Console.WriteLine("残念  :  " + a2);
+            }      
 
-            //ユーザから受け取った値を画面に出力
-            Console.WriteLine(a2);
+
 
 
             //コンソールが終了しないようにするため
