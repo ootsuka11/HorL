@@ -25,6 +25,13 @@ namespace HorL
                 int a2 = rnd.Next(10);
 
 
+                // 同じ数字にならないようにする
+                for (; a1 == a2; )
+                {
+                    a1 = rnd.Next(10);
+                    a2 = rnd.Next(10);
+                }
+
                 Console.WriteLine(i + " 問目");
                 Console.WriteLine(a1 + " : Hi or Low");
 
@@ -38,14 +45,19 @@ namespace HorL
                 {
                     Console.WriteLine("正解  :  " + a2);
                     Console.WriteLine("--------------------------");
-                    
+
                 }
                 else if (usersAnswer == "H" && a1 < a2)
                 {
                     Console.WriteLine("正解  :  " + a2);
                     Console.WriteLine("--------------------------");
                 }
-                else
+                else if (usersAnswer == "exit")
+                {
+                    Console.WriteLine("終了しました、Enterを押してください");
+                    chek = false;
+                }
+                else 
                 {
                     Console.WriteLine("残念  :  " + a2);
                     Console.WriteLine("終了しました、Enterを押してください");
