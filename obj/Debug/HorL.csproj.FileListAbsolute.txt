@@ -1,0 +1,6 @@
+C:\Users\Atsuya\Dev\CS\HorL\bin\Debug\HorL.exe.config
+C:\Users\Atsuya\Dev\CS\HorL\bin\Debug\HorL.exe
+C:\Users\Atsuya\Dev\CS\HorL\bin\Debug\HorL.pdb
+C:\Users\Atsuya\Dev\CS\HorL\obj\Debug\HorL.csprojResolveAssemblyReference.cache
+C:\Users\Atsuya\Dev\CS\HorL\obj\Debug\HorL.exe
+C:\Users\Atsuya\Dev\CS\HorL\obj\Debug\HorL.pdb

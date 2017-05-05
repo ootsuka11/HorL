@@ -10,6 +10,10 @@ namespace HorL
     {
         static void Main(string[] args)
         {
+            //ユーザから値を受け取る
+            var usersAnswer = Console.ReadLine();
+            Console.WriteLine(usersAnswer);
+            Console.Read();
         }
     }
 }
